@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Card</title>
+
+	<style>
+		.card {
+			position: relative;
+			width: 350px;
+			height: 350px;
+			border: 2px solid #8A8A88;
+
+		}
+
+		.card img {
+			position: absolute;
+		}
+
+		
+		.diamonds_10 {	
+			top: 90px;
+			left: 100px;
+			z-index: 1;
+		}
+
+		.diamonds_jack {	
+			top: 105px;
+			left: 115px;
+			z-index: 2;
+		}
+		.diamonds_queen {	
+			top: 120px;
+			left: 130px;
+			z-index: 3;
+		}
+		.diamonds_king {	
+			bottom: 115px;
+			left: 145px;
+			z-index: 4;
+		}
+		.diamonds_ace{
+			bottom: 98px;
+			left: 160px;
+			z-index: 5;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="card"><h1>Royal Flush</h1>
+		<img src="images/diamonds_10.gif" class="diamonds_10" alt="ten">
+		<img src="images/diamonds_ace.gif" class="diamonds_ace" alt="ace">
+		<img src="images/diamonds_jack.gif" class="diamonds_jack" alt="jack">
+		<img src="images/diamonds_king.gif" class="diamonds_king" alt="king">
+		<img src="images/diamonds_queen.gif" class="diamonds_queen" alt="queen">
+	</div>
+	
+</body>
+</html>

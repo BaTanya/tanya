@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<title>Table</title>
+		<style>
+		table{
+			border-collapse: collapse;
+		}
+		table, th, td{
+			border: 1px solid #000;
+		}
+		thead{
+			color: white;
+			background: #4689A4;
+		}
+		td,th {
+			padding: 5px;
+			width: 50px;
+		}
+		.c-green{
+			background-color: #C8DF78;
+		}		
+		
+		.c-olive{
+			background-color: #F0F8D5;
+		}
+		.c-blue{
+			background-color: #E7F0F4;
+		}
+		.c-white{
+			background-color: #F8FBFC;
+		}
+	    .block {
+	    	width:  300px;
+	    	height: 200px;
+	    	margin-top: 10px;
+	    	padding: 30px;
+	    	background-color: #111;
+	    	color: #fff;
+	    	border-width: 1px;
+	    	border-style: solid;
+	    	border-color: #f0f;
+	    }
+        
+		</style>
+</head>
+<body>
+<div class="block">
+		Вы освоили простейшие приёмы для работы с рамками таблиц.
+		Наша таблица уже смотрится аккуратно, но содержимое ячеек прилипает к рамкам. Если добавить отступы внутри ячеек, то информация будет восприниматься намного лучше.
+		</div>
+ <table>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+			<th>Title</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="c-green">
+			<td>Data</td>
+			<td>Data</td>
+			<td>Data</td>
+			<td>Data</td>
+			<td>Data</td>
+			<td>Data</td>
+		</tr>
+		<tr>
+			<td class="c-white">Data</td>
+			<td class="c-green">Data</td>
+			<td class="c-olive">Data</td>
+			<td class="c-white">Data</td>
+			<td class="c-white">Data</td>
+			<td class="c-white">Data</td>
+		</tr>
+		<tr>
+			<td class="c-blue">Data</td>
+			<td class="c-green">Data</td>
+			<td class="c-olive">Data</td>
+			<td class="c-blue">Data</td>
+			<td class="c-blue">Data</td>
+			<td class="c-blue">Data</td>
+		</tr>
+		<tr>
+			<td class="c-olive">Data</td>
+			<td class="c-green">Data</td>
+			<td class="c-olive">Data</td>
+			<td class="c-olive">Data</td>
+			<td class="c-olive">Data</td>
+			<td class="c-olive">Data</td>
+		</tr>
+		<tr>
+			<td class="c-blue">Data</td>
+			<td class="c-green">Data</td>
+			<td class="c-olive">Data</td>
+			<td class="c-blue">Data</td>
+			<td class="c-blue">Data</td>
+			<td class="c-blue">Data</td>
+		</tr>
+		
+	</tbody>
+
+</table>
+
+
+</body>
+</html>

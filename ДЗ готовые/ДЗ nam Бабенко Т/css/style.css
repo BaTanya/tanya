@@ -1,0 +1,26 @@
+body {
+	background-image: url('../img/bg.jpg');
+}
+
+.nam {
+	width: 125px;
+	height: 125px;
+	margin: 25px auto;
+	background: url('../img/rope-all.png') no-repeat;
+}
+
+.nam-1        {background-position: 0 0;}
+.nam-1:hover  {background-position: -145px 0;} 
+.nam-1:active {background-position: -145px -158px;} 
+
+.nam-2        {background-position: -417px -548px;}
+.nam-2:hover  {background-position: -417px -694px;} 
+.nam-2:active {background-position: -410px 0;}
+
+.nam-3        {background-position: -140px -290px;}
+.nam-3:hover  {background-position: -286px -694px;} 
+.nam-3:active {background-position: -145px -410px;} 
+
+.nam-4        {background-position: -260px -300px;}
+.nam-4:hover  {background-position: 0 -415px;} 
+.nam-4:active {background-position: 0 -272px;} 
