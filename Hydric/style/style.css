@@ -1,5 +1,5 @@
 @import url(fonts.css);
-@@import url(reset.css)
+@import url(reset.css);
 
 body{
 	margin: 0;
@@ -19,6 +19,7 @@ html{
 }
 p{
 	font-size: 26pt;
+	margin-bottom: 	2em;
 }
 .container{
 	width: 980px;

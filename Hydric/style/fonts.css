@@ -1,7 +1,10 @@
 @font-face{
 	font-family: "Myriad";
 	src: url(../fonts/MyRiadPro-Regular.otf);
+<<<<<<< HEAD
 	font-weight: 400;
+=======
+>>>>>>> master
 }
 @font-face{
 	font-family: "Myriad";
@@ -12,4 +15,8 @@
 	font-family: "Myriad";
 	src: url(../fonts/MyRiadPro-Bold.otf);
 	font-weight: 800;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

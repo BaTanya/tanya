@@ -24,12 +24,14 @@
 				</ul>
 			</nav>
 			<div class="center text-white">
+
 				<h1>Sweet and delicious</h1>
 				<img src="img/melon1.png" alt="">
 			</div>
 		</div>
 	</section>
 	<section class="fluid white">
+
 		<div class="container center">
 			<h1>More flavor and juiciness</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
@@ -55,6 +57,7 @@
 		<div class="container center">
 			<h1>More flavor and juiciness</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <br>
+
 				Lorem ipsum dolor sit amet
 			</p>
 			<div class="row">
@@ -64,15 +67,18 @@
 					</h3>
 					<p>Starting at<br>
 						<span>$6.90</span>
+
 					</p>
 					<a href="#">View details</a>
 				</div>
 				<div class="promo">
+
 					<h3>
 						Hydric<span>Pro</span>
 					</h3>
 					<p>Starting at<br>
 						<span>$22.90</span>
+
 					</p>
 					<a href="#">View details</a>
 				</div>
@@ -82,11 +88,38 @@
 					</h3>
 					<p>Starting at<br>
 						<span>$44.90</span>
+
 					</p>
 					<a href="#">View details</a>
 				</div>
 			</div>
 		</div>
 	</section>
+	<footer class="fluid lightgreen">
+		<div class="block rel">
+			<ul class="menu_2 link">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Nutrition</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+			<a href="#top" class="totop"></a>
+			<p class="copy">&copy;2015 Hydric. All rights reserved.
+			</p>
+		</div>
+		
+	</footer>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.totop').click(function () {
+				$("html, body").animate({
+					scrollTop: 0
+				}, 1000);
+				return false;
+			});
+		});
+	</script>
+
 </body>
 </html>

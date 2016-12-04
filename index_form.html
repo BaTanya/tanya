@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<style>
+		form{
+			background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAMAAAB883U1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRF7+/v7u7u////REBVnAAAAAN0Uk5T//8A18oNQQAAABZJREFUeNpiYGJiYmBiYgRiBhAGCDAAALsAFJhiJ+UAAAAASUVORK5CYII=)0 0 white;
+			width: 500px;
+			padding:10px;
+			margin: 100px auto;			
+		}
+		input{
+			width:90%;
+			margin:5px auto;
+			padding:15px;
+			font-size:20px;
+			font-family:'Tahoma';
+			border:1px solid black;
+			border-radius:8px;
+			display: block;
+		}
+		input[type=submit]{
+			box-sizing: content-box;
+			background-color: #2493ff;
+			color: #ffffff;
+			transition: all 3s;
+		}
+		input[type=submit]:hover{
+			background: linear-gradient(180deg, #7cbfff 0%, #ffffff 100%);
+			letter-spacing: 5px;
+			color: #000;
+		}
+		input:focus{
+			border: 1px solid black;
+			box-shadow: inset 0px 13px 6px -5px #959B90;
+			border-radius: 8px;
+			outline: none;
+		}
+		.d1{
+			padding: 20px 0;
+			border: 1px solid black;
+			text-align: center;
+			color: #A9A9A9;
+			font-style: italic;
+			font-size: 25px;
+			margin: 30px 35px 5px;
+		}
+		.d2{
+			border: 1px solid black;
+			width: 110%;
+			position: relative;
+			left: -5%;
+			transition: all 2s;
+		}
+		.d2:hover{
+			width: 100%;
+			left: 0;
+			transform: rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<div class="d1">
+			<div class="d2">
+				Go togather:)
+			</div>
+		</div>
+		<input type="text" name="login" placeholder="Login or M@il">
+		<input type="password" name="Password" placeholder="Write your password">
+		<input type="password" name="Password2" placeholder="Write password too">
+		<input type="submit" value="Regisrtation">
+	</form>
+</body>
+</html>
